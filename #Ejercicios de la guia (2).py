@@ -97,6 +97,7 @@ de ejecutar la función desarrollada.
 
 def monto_final (c_invertido_periodo, periodos, interes_nominal):
     FV = c_invertido_periodo * ( ( ((1 + interes_nominal)**periodos)-1 ) / interes_nominal )
+    return FV
 
 c = int (input('Ingrese el capital invertido en cada período: '))
 k = int (input('Ingrese la cantidad de períodos:'))
